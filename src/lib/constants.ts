@@ -49,7 +49,7 @@ export const LINKS = [
     icon: IconBrandGithubFilled,
   },
   {
-    name: "GitHub",
+    name: "X (Twitter)",
     href: "https://x.com/apausa",
     icon: IconBrandXFilled,
   },
