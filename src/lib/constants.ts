@@ -1,6 +1,7 @@
 import {
   IconBrandGithubFilled,
   IconBrandLinkedinFilled,
+  IconBrandXFilled,
 } from "@tabler/icons-react";
 
 export const TITLE = "Pablo Apausa";
@@ -46,6 +47,11 @@ export const LINKS = [
     name: "GitHub",
     href: "https://github.com/apausa",
     icon: IconBrandGithubFilled,
+  },
+  {
+    name: "GitHub",
+    href: "https://x.com/apausa",
+    icon: IconBrandXFilled,
   },
 ];
 
