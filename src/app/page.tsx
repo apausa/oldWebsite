@@ -11,6 +11,7 @@ import { Time } from "@/components/page/time";
 import { Separator } from "@/components/ui/separator";
 import { DESCRIPTION, TITLE } from "@/lib/constants";
 
+
 export default function Home() {
   const [time, setTime] = useState<Date | null>(null);
 
