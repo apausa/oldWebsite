@@ -4,14 +4,13 @@ import { useEffect, useState } from "react";
 
 import About from "@/components/page/about";
 import { Links } from "@/components/page/links";
-import { Mail } from "@/components/page/mail";
 import { ModeToggle } from "@/components/page/mode-toggle";
 import { P5Sketch } from "@/components/page/p5-sketch";
 import { Place } from "@/components/page/place";
-import { Spotify } from "@/components/page/spotify";
 import { Time } from "@/components/page/time";
 import { Separator } from "@/components/ui/separator";
 import { DESCRIPTION, TITLE } from "@/lib/constants";
+
 
 export default function Home() {
   const [time, setTime] = useState<Date | null>(null);
@@ -57,7 +56,7 @@ export default function Home() {
             <Place />
           </div>
           <div className="col-span-6 -mt-2">
-            <Mail />
+            <Time>{time}</Time>
           </div>
 
           <Separator className="col-span-6" />
@@ -68,16 +67,6 @@ export default function Home() {
           </div>
           <div className="col-span-6">
             <About />
-          </div>
-
-          <Separator className="col-span-6 invisible" />
-
-          {/* Footer */}
-          <div className="col-span-6">
-            <Spotify />
-          </div>
-          <div className="col-span-6 -mt-2">
-            <Time>{time}</Time>
           </div>
         </div>
       </div>
