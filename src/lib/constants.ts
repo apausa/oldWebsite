@@ -1,4 +1,5 @@
 import {
+  IconArticleFilled,
   IconBrandGithubFilled,
   IconBrandLinkedinFilled,
   IconBrandXFilled,
@@ -48,11 +49,16 @@ export const LINKS = [
     href: "https://github.com/apausa",
     icon: IconBrandGithubFilled,
   },
-  {
-    name: "X (Twitter)",
-    href: "https://x.com/apausa",
-    icon: IconBrandXFilled,
-  },
+  // {
+  //   name: "X (Twitter)",
+  //   href: "https://x.com/apausa",
+  //   icon: IconBrandXFilled,
+  // },
+  // {
+  //   name: "Substack",
+  //   href: "https://substack.com/@apausa",
+  //   icon: IconArticleFilled,
+  // },
 ];
 
 export const SPOTIFY_URL_TOKEN = "https://accounts.spotify.com/api/token";
