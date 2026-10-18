@@ -13,7 +13,7 @@ export const MAIL = "pablo@apausa.dev";
 export const LOCATION = "Geneva, Switzerland";
 
 export const DESCRIPTION =
-  "Software Engineer at CERN FCC Study — Computer Graphics — MS in Artificial Intelligence";
+  "Software Engineer at CERN FCC Study — MS in Artificial Intelligence";
 
 export const METADATA = {
   title: TITLE,
