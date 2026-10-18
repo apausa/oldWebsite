@@ -4,11 +4,9 @@ import { useEffect, useState } from "react";
 
 import About from "@/components/page/about";
 import { Links } from "@/components/page/links";
-import { Mail } from "@/components/page/mail";
 import { ModeToggle } from "@/components/page/mode-toggle";
 import { P5Sketch } from "@/components/page/p5-sketch";
 import { Place } from "@/components/page/place";
-import { Spotify } from "@/components/page/spotify";
 import { Time } from "@/components/page/time";
 import { Separator } from "@/components/ui/separator";
 import { DESCRIPTION, TITLE } from "@/lib/constants";
